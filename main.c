@@ -2,7 +2,9 @@
 
 int main(void) {
     
-    printf("Hello world!\n");
-    printf("Hello world 2!\n");
+    int i;
+    for(i=0;i<5;i++)
+        printf("Hello world %d\n",i);
+
     return 0;
 }
