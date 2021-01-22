@@ -1,10 +1,10 @@
 #include <stdio.h>
+extern int max(int, int);
 
 int main(void) {
     
-    int i;
-    for(i=0;i<5;i++)
-        printf("Hello world %d\n",i);
+    int n=5,m=10;
+    printf("%d\n",max(n,m)); 
 
     return 0;
 }
